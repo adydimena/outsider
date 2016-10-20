@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+Author: Adilson Barbosa
+CS user: abarbosa
+Email: adilson_barbosa@student.uml.edu
+Course: Gui programing I @ UML
+Date: 10/01/2016
+Description: This web site will be my digital resume, where I can introduce my
+self, my academic and professional goals to any potential future employer. I added more css style 
+to this page to make it more fun, but the objective is to make it interactive!!
+
+
+-->
+<html>
+    <head>
+        <title>My digital Resume</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> <!-- CSS file linked -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    </head>
+    <body>
+        <p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+        <div class="still"> <!-- div not used, placed in case need it in future -->
+        <header id ="ady">  <!-- header named with id to make different changes than regular header -->
+            <h1> Adilson Barbosa </h1>
+        </header>
+        <nav> <!-- nav is where I place my links -->
+            <ul> <!-- unorder list -->
+                <li><a href="#background">Background</a></li> <!-- Bookmark that link inside my web -->
+                <li><a href="#profile">Profile</a></li> <!-- Bookmark that link inside my web -->
+                <li><a href="#education">Education</a></li> <!-- Bookmark that link inside my web -->
+                <li><a href="#related_experience">Related Experience</a></li> <!-- Bookmark that link inside my web -->
+                <li><a href="#skills">Skills</a></li>   <!-- Bookmark that link inside my web -->             
+                <li><a href="#additional_skills">Additional Skills</a></li> <!-- Bookmark that link inside my web -->
+            </ul>
+        </nav>
+        </div>
+        <main>
+            <div id="away"> <!-- id not used placed in case need it in future -->
+            <section> <!-- I divided each topic into sections, articles and header to use CSS on those -->
+                <h2 id="background"> Background</h2> <!-- id "background is for the bookmark link -->
+                <a href="#">Go to top</a> <!-- link to the top of the page -->
+                <article>
+                    <header>
+                        <h3>Cape Verde</h3>
+                        <p>Paradise in Earth</p>
+                    </header>
+                    <p>I'm from Cape Verde a very small country formed by <strong> 10 </strong> little islands located in west Africa. </p>
+                    <p>In Cape Verde most of the revenue comes from the Oceans <i> (fishing) </i> and from immigrants that reside in USA and Europe.</p>
+                    <p>However Cape Verde is one of the most stable countries in Africa, known by its honest politicians.</p>
+                    <div class="hover-outline">
+                    <img src="capeverde.jpg" style="float:left; width: 385px; height:385px; margin-right:1%; margin-bottom: 0.5em;">
+                    <img src="capeverdeMap.jpg" style="float:left; width: 385px; height:385px; margin-right:1%; margin-bottom: 0.5em;">
+                    </div>
+                    <p style="clear:both;"> <!-- avoiding overlapping -->
+                    
+                    <p>In fact the only time Cape Verde was involved in <strong>war</strong> was for its independence. </p>
+                    <p>Cape Verde is a calm and relax country, perfect for vacation with wonderful beaches</p>
+                    <p>The <strong> Beaches </strong> are the strongest motivation to make you go to Cape Verde! You will go to places that looks <i>untouched</i> </p>
+                    <p>and it will make you feel that you are the first human being that ever visited those places</p>
+                </article>
+            </section>
+            </div>
+            <section>
+                <h2 id ="profile">Profile</h2>
+                <a href="#">Go to top</a>
+                <article>
+                    <header>
+                        <p>Accomplishing a <strong>double major </strong> in<i> Electrical Engineering </i> and <i>Computer Science</i> ,in the Senior Year, I'm looking to<br/>
+                        expand my experience in a professional career by obtaining a related work experience.</p>
+                        <p> Offer in-depth knowledge in electrical and/or electronics such as debugging, analyzing and/or building  components and/or circuits .</p>
+                    </header>
+                </article>
+                
+            </section>
+            <section>
+                <h2 id ="education">Education</h2>
+                <a href="#">Go to top</a>
+                <article>
+                    
+                    <header class="keon">                       
+                        <h3>Massasoit Community College</h3>
+                        
+                        <p>From <strong>September 2011</strong> to <strong>December 2012</strong> </p>       
+                        <p>Completed the Math, Science and General Education courses </p>
+                        <p>to transfer to the <strong>Engineering</strong> program</p>        
+                    </header>
+                    <header class="wrapper">
+                        <h3>University of Massachusetts Lowell</h3>
+                        <p><strong>Expected Graduation May 2017</strong> </p>
+                        <p>Double majoring in Electrical Engineering </p>
+                        <p> and Computer Science program</p>
+                    </header>
+                </article>          
+                 </section>
+            <section>
+                <h2 id="related_experience">Related Experience</h2>
+                <a href="#">Go to top</a>
+               <article>
+                    <header>                       
+                        <h3>Parking Elmer</h3>
+                        <p>Mechanical Engineering Co-op</p>
+                        <p>From <strong>September 2015</strong> to <strong>January 2016</strong> </p>
+                        <p>Work on assignments related to design, creation of mechanical drawings (RoHS) </p>
+                        <p> Making a product RoHS compliant</p>
+                        <p> Assist in design changes of parts and assemblies</p>
+                        <p> Work with purchasing personnel and suppliers to produce parts and drawing files</p>
+                        <p> Work with manufacturing to perform part verification and testing</p>
+                    </header>
+                    
+                </article>
+            </section>
+            <section>
+                <h2 id="skills">Skills</h2>
+                <a href="#">Go to top</a>
+                <article>
+                    
+                    <header class ="kathy" >                       
+                        <h3>Electric/ Hardware</h3>
+                        <p>Proficient in reading circuit schematics </p>       
+                        <p>Troubleshooting circuits/equipment </p>
+                        <p> Proficient in writing technical reports</p>
+                        <p> Diodes, Transistors ( MOSFETs BJTs)</p> 
+                    </header>
+                    <header class ="kayro">
+                        <h3>Software/Programing</h3>
+                        <p>MS Office (Word, Excel, PowerPoint) </p>
+                        <p>MATLAB,  C++,Dip Trace </p>
+                        <p> Proficient in C</p>
+                        <p> HTML</p>
+                    </header>
+                </article>
+            </section>
+            <section>
+                <h2 id="additional_skills">Additional Skills</h2>
+                <a href="#">Go to top</a>
+                <article>
+                    <header>
+                        <p>I'm a sport man. I played<strong> Judo </strong> and <strong>Soccer</strong> all my life... </p>
+                        <p>At a age of 13 I represented my country in a international Judo Championship </p>
+                        <p>... and I won a bronze Medal... in my first participation </p>
+                        <p>Although I was good on Judo, my love was and it will always be <strong>SOCCER</strong> </p>
+                        <div class ="rotate">
+                        <img src="soccer.jpg" style="float:left; width: 385px; height:385px; margin-right:1%; margin-bottom: 0.5em;">
+                    <img src="soccer1.jpg" style="float:left; width: 385px; height:385px; margin-right:1%; margin-bottom: 0.5em;">
+                        </div>
+                    <p style="clear:both;">
+                     <p>I tried to pursue my dream in soccer in <strong>Europe</strong> where I played semi professional</p>
+                     <p> but I never made to professional level... </p>  
+                     <p> However I still <strong> PLAY</strong> and <strong>LOVE Soccer</strong> </p>
+                    </header>
+                </article>
+            </section>
+        </main>
+        
+    </body>
+</html>
